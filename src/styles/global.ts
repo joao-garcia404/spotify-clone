@@ -8,9 +8,10 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   :root {
-    --background: #0a0a0a;
-    --sidebar: #070707;
-    --text: #FFF;
+    --background: #121212;
+    --sidebar: #000000;
+    --shape: #181818;
+    --text: #FFFFFF;
     --secondaryText: #ABABAB;
     --thirdText: #FCFCFC;
     --activeText: #09D89D;
