@@ -11,9 +11,11 @@ export const GlobalStyles = createGlobalStyle`
     --background: #121212;
     --sidebar: #000000;
     --shape: #181818;
+    --lightBorder: #282828;
     --text: #FFFFFF;
     --secondaryText: #ABABAB;
     --thirdText: #FCFCFC;
+    --fourthText: #b3b3b3;
     --activeText: #09D89D;
     --disabledText: #CCCCCC;
     --green: #0DB145;
@@ -22,6 +24,7 @@ export const GlobalStyles = createGlobalStyle`
 
   html,
   body {
+    height: 100vh;
     font-family: "Inter", sans-serif;
     background: var(--background);
   }
