@@ -18,6 +18,7 @@ export const GlobalStyles = createGlobalStyle`
     --fourthText: #b3b3b3;
     --activeText: #09D89D;
     --disabledText: #CCCCCC;
+    --sliderBackground: #535353;
     --green: #0DB145;
     --spotify: #1DB954;
   }

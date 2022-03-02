@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FiHeart } from "react-icons/fi";
+import { PlayerSlider } from "./components/PlayerSlider";
 
 import {
   Container,
@@ -9,6 +10,8 @@ import {
   MusicName,
   MusicArtists,
   ActionsContainer,
+  PlayerContainer,
+  VolumeContainer,
 } from "./styles";
 
 export function Player() {
@@ -32,6 +35,12 @@ export function Player() {
           />
         </ActionsContainer>
       </CurrentMusicContainer>
+
+      <PlayerContainer>
+        <PlayerSlider />
+      </PlayerContainer>
+
+      <VolumeContainer>Volumeee</VolumeContainer>
     </Container>
   );
 }

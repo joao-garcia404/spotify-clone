@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Container>
       <Head>
-        <title>Spotify</title>
+        <title>Spotify - Web Player</title>
         <link rel="icon" href="/spotify.svg" />
       </Head>
 

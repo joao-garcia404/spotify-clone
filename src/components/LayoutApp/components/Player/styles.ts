@@ -9,6 +9,7 @@ export const Container = styled.div`
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
 `;
 
 export const CurrentMusicContainer = styled.div`
@@ -48,3 +49,7 @@ export const ActionsContainer = styled.div`
     cursor: pointer;
   }
 `;
+
+export const PlayerContainer = styled.div``;
+
+export const VolumeContainer = styled.div``;
